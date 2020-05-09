@@ -8,7 +8,6 @@ var todos = JSON.parse(localStorage.getItem('list_todos') || []); // Inicia com 
 //Renderizar todos 
 function renderTodos(){
     listElement.innerHTML = '';                            //limpa o ul do html
-    //teste
     for(todo of todos){
         var todoElement = document.createElement('li');    // Cria um list item
         var todoText = document.createTextNode(todo+" ");      // Texto que vai ser amazenado dentro da li
