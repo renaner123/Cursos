@@ -6,8 +6,8 @@ var minhaPromise = function(){
 
         xhr.onreadystatechange = function(){
             if (xhr.readyState === 4){
-                if(xhr.status === 200){
-                    resolve(JSON.parse(xhr.responseText));
+                if(xhr.status === 200){                     // 200 ok quando retorna com sucesso
+                    resolve(JSON.parse(xhr.responseText)); // retorno do github é um JSON, então é possível usar parse
                 }else{
                     reject('Erro na requisição');
                 }
