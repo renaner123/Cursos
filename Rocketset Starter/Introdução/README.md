@@ -1,6 +1,5 @@
 ## Introdução ao JavaScript
 
-```
 ### Variáveis
 ```javascript
 <script>
@@ -99,4 +98,4 @@
     setInterval(exibeAlgo,1000); // fica executando a cada intervalo
     setTimeout(exibeAlgo,1000);  // Executa somente uma vez com esse delay
 </script>
-```javascript
+```
