@@ -1,4 +1,32 @@
 ## Introdução ao JavaScript
+```Java
+    public class Decisao{
+      public static void main(String[] args) {
+
+        int i=2,j=1;
+
+        //Estrutura if/else
+        if(i>2){
+            System.out.println("i é maior que 2");
+        }else{
+            System.out.println("i é menor");
+        }
+
+        //Estrutura else if
+        if(i>2){
+            System.out.println("i é maior que 2");
+        }else if(i > 0){
+            System.out.println("i é maior que 0");
+        }else{
+            System.out.println("i é menor que 0");
+        }
+        //Operador ternário
+        System.out.println((i > j) ? "Maior" : "Menor");
+      }
+    }
+    ```
+
+
 
 ### Variáveis
     ```java
