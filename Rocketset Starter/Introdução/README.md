@@ -1,7 +1,7 @@
 ## Introdução ao JavaScript
 
 ### Variáveis
-    ```java
+    ```Linguist
     var nome = "Renan";
     var idade = 25;
     var peso = 60;
