@@ -3,7 +3,7 @@
 ```
 ### Variáveis
     ```javascript
-    function hello(){
+    function hello(arg){
         var nome = "Renan";
         var idade = 25;
         var peso = 60;
