@@ -1,7 +1,7 @@
 ## Introdução ao JavaScript
 
 ### Variáveis
-    ~~~javascript
+    ```
     <script>
         var nome = "Renan";
         var idade = 25;
@@ -19,7 +19,7 @@
         console.log(alunos[1]);
         console.log(aluno.peso);
     </script>
-    ~~~
+    ```
 
 ### Aritiméticas
     ~~~javascript
