@@ -3,7 +3,7 @@
 ```
 ### Variáveis
 ```javascript
-function hello(arg){
+<script>
     var nome = "Renan";
     var idade = 25;
     var peso = 60;
@@ -19,7 +19,7 @@ function hello(arg){
     };
     console.log(alunos[1]);
     console.log(aluno.peso);
-}
+</script>
 ```
 
 ### Aritiméticas
