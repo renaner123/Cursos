@@ -2,33 +2,7 @@
 
 ### Variáveis
 ```javascript
-<<<<<<< HEAD
-    <script>
-        var nome = "Renan";
-        var idade = 25;
-        var peso = 60;
-        var humano = true;
-=======
 <script>
-    var nome = "Renan";
-    var idade = 25;
-    var peso = 60;
-    var humano = true;
->>>>>>> da6733f230bd7d4378852acf4de1798290e25b79
-
-    var alunos = ['DIego','Gabriel','Lucas'];
-
-<<<<<<< HEAD
-        var aluno= {
-            nome: alunos[0],
-            idade: 25,
-            peso: 60,
-            humano: true
-        };
-        console.log(alunos[1]);
-        console.log(aluno.peso);
-    </script>
-=======
     var aluno= {
         nome: alunos[0],
         idade: 25,
@@ -38,7 +12,6 @@
     console.log(alunos[1]);
     console.log(aluno.peso);
 </script>
->>>>>>> da6733f230bd7d4378852acf4de1798290e25b79
 ```
 
 ### Aritiméticas
