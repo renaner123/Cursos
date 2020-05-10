@@ -1,5 +1,11 @@
 ## Introdução ao JavaScript
-
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
 ### Variáveis
     ```javascript
     var nome = "Renan";
