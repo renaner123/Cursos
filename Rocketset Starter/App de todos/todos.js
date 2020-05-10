@@ -3,7 +3,7 @@ var inputElement = document.querySelector('#app input');     //Acessa a div inpu
 var buttonElement = document.querySelector('#app button');   //Acessa a div button do html
 
 
-var todos = JSON.parse(localStorage.getItem('list_todos') || []); // Inicia com itens armazenados no local storage
+var todos = JSON.parse(localStorage.getItem('list_todos')) || []; // Inicia com itens armazenados no local storage
                                                                  // caso não tenha, atribui array vazio
 //Renderizar todos 
 function renderTodos(){
