@@ -1,7 +1,7 @@
 ## Introdução ao JavaScript
 
 ### Variáveis
-    ```Linguist
+    ```javascript
     var nome = "Renan";
     var idade = 25;
     var peso = 60;
@@ -20,7 +20,7 @@
     ```
 
 ### Aritiméticas
-    ~~~javascript
+    ```javascript
     <script>
         //Aritiméticas
         var x = 10; y=5;
@@ -30,9 +30,9 @@
         x -= y;
 
     </script>
-    ~~~
+    ```
 ### Funções
-    ~~~javascript
+    ```javascript
     <script>
         function soma(numero1,numero2){
             var resultado = numero1 + numero2;
@@ -42,9 +42,9 @@
         var resultado = soma(1,2);
         console.log(resultado);
     </script>
-    ~~~
+    ```
 ### Condicionais 
-    ~~~javascript
+    ```javascript
     <script>
         function retornaSexo(sexo){
             switch (sexo){
@@ -60,19 +60,19 @@
         var resultado = soma(1,2);
         console.log(resultado);
     </script>
-    ~~~
+    ```
 
 ### Operador ternário
-    ~~~javascript
+    ```javascript
     <script>
         //Operador ternário
         var sexo = 'M';
         var retorno = (sexo === 'M') ? 'Masculino' : 'Feminino';
         console.log(resultado);
     </script>
-    ~~~
+    ```
 ### Estrutura de repetição
-    ~~~javascript
+    ```javascript
     <script>
         //Estrutura de repetição
         //for (var i = 0; i<=100;i++){
@@ -84,9 +84,9 @@
             j /= 5;
         }
     </script>
-    ~~~
+    ```
 ### Intervalo e Timeout
-    ~~~javascript
+    ```javascript
     <script>
         //Intervalo e timeout
         function exibeAlgo(){
@@ -96,4 +96,4 @@
         setInterval(exibeAlgo,1000); // fica executando a cada intervalo
         setTimeout(exibeAlgo,1000);  // Executa somente uma vez com esse delay
     </script>
-    ~~~
+    ```javascript
