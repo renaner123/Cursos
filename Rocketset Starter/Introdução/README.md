@@ -1,28 +1,25 @@
 ## Introdução ao JavaScript
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
+
 ```
 ### Variáveis
     ```javascript
-    var nome = "Renan";
-    var idade = 25;
-    var peso = 60;
-    var humano = true;
+    fuction hello(){
+        var nome = "Renan";
+        var idade = 25;
+        var peso = 60;
+        var humano = true;
 
-    var alunos = ['DIego','Gabriel','Lucas'];
+        var alunos = ['DIego','Gabriel','Lucas'];
 
-    var aluno= {
-        nome: alunos[0],
-        idade: 25,
-        peso: 60,
-        humano: true
-    };
-    console.log(alunos[1]);
-    console.log(aluno.peso);
+        var aluno= {
+            nome: alunos[0],
+            idade: 25,
+            peso: 60,
+            humano: true
+        };
+        console.log(alunos[1]);
+        console.log(aluno.peso);
+    }
     ```
 
 ### Aritiméticas
