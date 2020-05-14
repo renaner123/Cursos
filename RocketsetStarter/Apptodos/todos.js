@@ -7,7 +7,7 @@ var todos = JSON.parse(localStorage.getItem('list_todos')) || []; // Inicia com 
                                                                  // caso não tenha, atribui array vazio
 //Renderizar todos 
 function renderTodos(){
-    listElement.innerHTML = '';                            //limpa o ul do html
+    listElement.innerHTML = '';                            //limpa o ul do html  ok
     for(todo of todos){
         var todoElement = document.createElement('li');    // Cria um list item
         var todoText = document.createTextNode(todo+" ");      // Texto que vai ser amazenado dentro da li
