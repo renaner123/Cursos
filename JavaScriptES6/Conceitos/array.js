@@ -25,3 +25,14 @@ const find = arr.find(function(item){ // retornar o valor se encontrar no array 
     return item === 4;
 });
 
+
+// Arrow Functions
+
+//const newArr = arr.map(function(item, index){ //map percore o vetor e retorna uma nova informação
+    //return item + index;
+//});
+const newArr = arr.map(item => item * 2); //Corresponde a função comentada acima
+
+const teste = () => ({nome: 'Renan'}); // Para usar objeto precisa usar () 
+
+console.log(teste());
