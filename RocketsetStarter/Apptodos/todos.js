@@ -44,6 +44,7 @@ function addTodo(){
 buttonElement.onclick = addTodo;
 
 
+
 function deleteTodo(pos){
     todos.splice(pos,1);                                 // remover 1 item após 'pos'
     renderTodos();
