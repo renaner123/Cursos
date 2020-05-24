@@ -28,3 +28,5 @@ document.getElementById('novotodo').onclick = function(){
 }
 
 Minhalista.monstraUsuario;
+
+

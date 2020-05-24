@@ -45,6 +45,7 @@ var TodoList = /*#__PURE__*/function (_List) {
 
   var _super = _createSuper(TodoList);
 
+  //herdando de List
   function TodoList() {
     var _this;
 

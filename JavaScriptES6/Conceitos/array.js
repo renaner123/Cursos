@@ -36,3 +36,13 @@ const newArr = arr.map(item => item * 2); //Corresponde a função comentada aci
 const teste = () => ({nome: 'Renan'}); // Para usar objeto precisa usar () 
 
 console.log(teste());
+
+
+// Valores padrões
+
+function soma(a = 3, b =6){
+    return a + 6;
+}
+
+console.log(soma(1));// funciona como uma sobrecarga de métodos.
+console.log(soma()); // caso seja passado argumentos inválidos, não irá dar erro
