@@ -10,12 +10,13 @@ const newArr = arr.map(function(item, index){ //map percore o vetor e retorna um
 const sum = arr.reduce(function(total,next){ // joga o valor de next para o total, resultando no final a soma de tudo
     return total;
 });
-
+//saida
 // 0
 // 1
 
 // 1
 // 3
+
 const filter = arr.filter(function(item){ //false remove, true mantém no array.
     return item % 2 === 0;
 });
